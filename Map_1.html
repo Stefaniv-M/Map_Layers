@@ -15,7 +15,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-            <style> #map_9ef66b2ba6ef43bdad0c52452c4e26bf {
+            <style> #map_497f0e39c060465b96d6bde291d6a8b1 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -27,7 +27,7 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_9ef66b2ba6ef43bdad0c52452c4e26bf" ></div>
+            <div class="folium-map" id="map_497f0e39c060465b96d6bde291d6a8b1" ></div>
         
 </body>
 <script>    
@@ -37,8 +37,8 @@
                 var bounds = null;
             
 
-            var map_9ef66b2ba6ef43bdad0c52452c4e26bf = L.map(
-                                  'map_9ef66b2ba6ef43bdad0c52452c4e26bf',
+            var map_497f0e39c060465b96d6bde291d6a8b1 = L.map(
+                                  'map_497f0e39c060465b96d6bde291d6a8b1',
                                   {center: [49.817545,24.023932],
                                   zoom: 17,
                                   maxBounds: bounds,
@@ -49,7 +49,7 @@
             
         
     
-            var tile_layer_2393b354349a4391beff10d6a7a50286 = L.tileLayer(
+            var tile_layer_6035fbe3bed44273a6f9d78897e52db9 = L.tileLayer(
                 'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
                 {
   "attribution": null,
@@ -59,6 +59,80 @@
   "noWrap": false,
   "subdomains": "abc"
 }
-                ).addTo(map_9ef66b2ba6ef43bdad0c52452c4e26bf);
+                ).addTo(map_497f0e39c060465b96d6bde291d6a8b1);
+        
+    
+            var feature_group_a32a84c186aa4f5099a44a21bf1e9e9c = L.featureGroup(
+                ).addTo(map_497f0e39c060465b96d6bde291d6a8b1);
+        
+    
+
+            var marker_7346d95b9d344fe095e6517cf52876c9 = L.marker(
+                [49,24],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_a32a84c186aa4f5099a44a21bf1e9e9c);
+            
+    
+
+                var icon_0218b555c4d34efea5fe21e4010ffa47 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7346d95b9d344fe095e6517cf52876c9.setIcon(icon_0218b555c4d34efea5fe21e4010ffa47);
+            
+    
+            var popup_488f705d3e014a36bc4c1145c89821f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_e517deb13d304d52bb8d6895f63b2df8 = $('<div id="html_e517deb13d304d52bb8d6895f63b2df8" style="width: 100.0%; height: 100.0%;">​1900 рік </div>')[0];
+                popup_488f705d3e014a36bc4c1145c89821f3.setContent(html_e517deb13d304d52bb8d6895f63b2df8);
+            
+
+            marker_7346d95b9d344fe095e6517cf52876c9.bindPopup(popup_488f705d3e014a36bc4c1145c89821f3);
+
+            
+        
+    
+            var feature_group_950d2578818e4cacb0929bab1a99e663 = L.featureGroup(
+                ).addTo(map_497f0e39c060465b96d6bde291d6a8b1);
+        
+    
+
+            var marker_2df05c722a1742c7b0c0e1ac64bceb3d = L.marker(
+                [50,25],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_950d2578818e4cacb0929bab1a99e663);
+            
+    
+
+                var icon_4ec70dbbb5be488aadc218d2bd2e9c88 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2df05c722a1742c7b0c0e1ac64bceb3d.setIcon(icon_4ec70dbbb5be488aadc218d2bd2e9c88);
+            
+    
+            var popup_af49794c858b4d49bfb62fc988d0da14 = L.popup({maxWidth: '300'});
+
+            
+                var html_f532ee8259d84a5abb60bbaa7e8278fb = $('<div id="html_f532ee8259d84a5abb60bbaa7e8278fb" style="width: 100.0%; height: 100.0%;">​1902 рік </div>')[0];
+                popup_af49794c858b4d49bfb62fc988d0da14.setContent(html_f532ee8259d84a5abb60bbaa7e8278fb);
+            
+
+            marker_2df05c722a1742c7b0c0e1ac64bceb3d.bindPopup(popup_af49794c858b4d49bfb62fc988d0da14);
+
+            
         
 </script>
